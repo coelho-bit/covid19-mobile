@@ -2,6 +2,8 @@
 
 A mobile app that tracks the spread of corona virus around the world
 
+![home](https://user-images.githubusercontent.com/61102108/79279505-8fb4e000-7e84-11ea-9e8b-66616906b206.png)
+
 ## Built With
 
 Front-End - Flutter | Dart
