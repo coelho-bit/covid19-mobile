@@ -1,16 +1,17 @@
-# covid19
+# COVID-19 Tracker
 
-A new Flutter application.
+A mobile app that tracks the spread of corona virus around the world
 
-## Getting Started
+## Built With
 
-This project is a starting point for a Flutter application.
+Front-End - Flutter | Dart
+Back-End - NodeJS
 
-A few resources to get you started if this is your first Flutter project:
+## Authors
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Joel Coelho
+Estevao Coelho : https://github.com/EstevaoCoelho647
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
