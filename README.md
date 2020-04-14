@@ -10,13 +10,13 @@ A mobile app that tracks the spread of corona virus around the world
 
 ## Built With
 
-Front-End - Flutter | Dart
-Back-End - NodeJS
+- Front-End - Flutter | Dart
+- Back-End - NodeJS
 
 ## Authors
 
-Joel Coelho
-Estevao Coelho : https://github.com/EstevaoCoelho647
+- Joel Coelho : https://github.com/coelho-bit
+- Estevao Coelho : https://github.com/EstevaoCoelho647
 
 ## License
 
