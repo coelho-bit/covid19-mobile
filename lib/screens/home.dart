@@ -74,7 +74,7 @@ class _HomeState extends State<Home> {
                         borderRadius: BorderRadius.circular(20)),
                     color: Color.fromRGBO(60, 60, 60, 1),
                     onPressed: () {
-                      Navigator.of(context).push(MaterialPageRoute(
+                      Navigator.of(context).pushReplacement(MaterialPageRoute(
                           builder: (context) => Countries(argument: {'countriesList': data["countriesList"]})));
                     },
                     icon: Icon(
