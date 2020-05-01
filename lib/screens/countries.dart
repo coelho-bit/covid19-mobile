@@ -87,7 +87,7 @@ class _CountriesState extends State<Countries> {
                                 fontWeight: FontWeight.w300),
                           )),
                       onTap: () {
-                        searchCountryData(countryList[index], countryList);
+                        searchCountryData(filteredCountryList[index], countryList);
                       }),
                   color: Color.fromRGBO(41, 41, 41, 1),
                 );
