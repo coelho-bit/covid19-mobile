@@ -1,4 +1,5 @@
 import 'package:covid19/components/label_value_column.dart';
+import 'package:covid19/screens/countries.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
@@ -61,7 +62,7 @@ class _HomeState extends State<Home> {
                   ),
                   visible: data["selectedCountryName"] != "World"),
               SizedBox(
-                width: 10,
+                width: 1,
               ),
               Align(
                 alignment: Alignment.center,
@@ -73,8 +74,8 @@ class _HomeState extends State<Home> {
                         borderRadius: BorderRadius.circular(20)),
                     color: Color.fromRGBO(60, 60, 60, 1),
                     onPressed: () {
-                      Navigator.pushReplacementNamed(context, '/countries',
-                          arguments: {'countriesList': data["countriesList"]});
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => Countries(argument: {'countriesList': data["countriesList"]})));
                     },
                     icon: Icon(
                       Icons.location_on,
